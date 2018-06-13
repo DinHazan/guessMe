@@ -17,6 +17,7 @@ function init() {
 }
 
 function startGuessing() {
+    $('.gameStart').hide()
     // TODO: hide the gameStart section
     renderQuest();
     // TODO: show the gameQuest section
