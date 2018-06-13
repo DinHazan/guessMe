@@ -20,6 +20,8 @@ function startGuessing() {
     $('.gameStart').hide()
     // TODO: hide the gameStart section
     renderQuest();
+    $('.gameQuest').show()
+    
     // TODO: show the gameQuest section
 }
 
